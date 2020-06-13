@@ -16,6 +16,6 @@ subplot(2,2,2); plot(f,'r');
 title("{f'(x)}");
 subplot(2,2,3); plot(f2,'g');
 title("{f''(x)}");
-subplot(2,2,4); plot(double(subs(F,a,x)),'c');
+subplot(2,2,4); plot(double(subs(F,a,x)),'y');
 title("{F(x)}");
 hold off;
